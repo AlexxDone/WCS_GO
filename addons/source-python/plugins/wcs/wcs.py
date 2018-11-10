@@ -1241,7 +1241,7 @@ def player_death(event):
 				elif weapon == 'smokegrenade':
 					Delay(1, wcsplayers[attacker_entity.userid].give_xp, (smokexp, 'for making a smoke grenade kill'))
 				elif weapon == 'flashbang':
-					Delay(1, wcsplayers[attacker_entity.userid].give_xp, (flashbangxp, 'for making a flashbang grenade kill'))
+					Delay(1, wcsplayers[attacker_entity.userid].give_xp, (flashxp, 'for making a flashbang grenade kill'))
 				elif weapon == 'inferno':
 					Delay(1, wcsplayers[attacker_entity.userid].give_xp, (molotovxp, 'for making a fire kill'))
 			
